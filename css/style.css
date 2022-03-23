@@ -1,0 +1,148 @@
+/*Обнуление стилей*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*Стили обнулены!*/
+
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(../font/Oswald-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../font/Montserrat-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vollkorn-Regular";
+  src: url(../font/Vollkorn-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+.page {
+  max-width: 1440px;
+  margin: auto;
+}
+.header__content {
+  width: 100%;
+  padding: 1.25% 17.5% 1.25% 17.5%;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+}
+.header__logo-text {
+  margin-left: 18px;
+  font-family: "Oswald-Regular";
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.header__navigation {
+  margin-left: auto;
+}
+.header__list {
+  display: flex;
+  gap: 11.3%;
+  text-transform: uppercase;
+}
+.list-link {
+  font-size: "Montserrat-Regular";
+  font-size: 12px;
+}
+.header__title-content {
+  background-image: url(../image/background.jpg);
+}
+.title {
+  font-family: "Montserrat-Regular";
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+
+
+  margin-top: 98px;
+}
+.header__header-link {
+	color: #FFFFFF;
+}
