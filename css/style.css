@@ -336,7 +336,6 @@ h6 {
   margin-top: 63px;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
   gap: 14%;
 }
@@ -344,7 +343,8 @@ h6 {
   width: calc((100%-14%)/3);
   flex-direction: column;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 .contact-box-title {
   font-family: "Montserrat-Regular";
@@ -521,8 +521,13 @@ margin-top: 65px;
     .contact-box:nth-child(3) {
       margin-top: 30px;
     }
+    .social-link-text {
+      display: none;
+    }
+    .field::placeholder {
+      font-size: 12px;
+    }
     .feedback-button {
-      width: 100%;
-      
+      padding: 15px 15px 16px 15px;
     }
  }
